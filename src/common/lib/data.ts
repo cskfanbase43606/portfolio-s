@@ -1,11 +1,11 @@
 import React from 'react';
 
-import campwithusImg from '@/../public/images/camp-with-us.png';
+// import campwithusImg from '@/../public/images/camp-with-us.png';
 // import carcatalogImg from '@/../public/images/car-catalog.png';
 import xbeatImg from '@/../public/images/xbeat.png';
 import projectmanagementImg from '@/../public/images/project-management.png';
 // import reactfoodImg from '@/../public/images/react-food.png';
-import surgeImg from '@/../public/images/surge.png';
+// import surgeImg from '@/../public/images/surge.png';
 import portfolioImg from '@/../public/images/portfolio.png';
 import pizzatimeImg from '@/../public/images/pizzatime.png';
 import ranacartImg from '@/../public/images/ranacart.png';
@@ -123,15 +123,15 @@ export const skillsData = [
   ['TypeScript', '/svgs/typescript-icon.svg'],
   ['React', '/svgs/react.svg'],
   ['Next.js', '/svgs/nextjs.svg'],
-  // ['Node.js', '/svgs/node-js.svg'],
-  // ['Express', '/svgs/express-original.svg'],
+  ['Node.js', '/svgs/node-js.svg'],
+  ['Express', '/svgs/express-original.svg'],
   ['Tailwind', '/svgs/tailwind-css.svg'],
   ['Framer', '/svgs/framer.svg'],
   ['Shadcn', '/svgs/shadcnui.svg'],
   // ['Headless', '/svgs/brand-headlessui.svg'],
   ['Redux', '/svgs/redux-original.svg'],
-  // ['Prisma', '/svgs/file-type-light-prisma.svg'],
-  // ['MongoDB', '/svgs/mongodb-original.svg'],
+  ['Prisma', '/svgs/file-type-light-prisma.svg'],
+  ['MongoDB', '/svgs/mongodb-original.svg'],
   // ['PostgreSQL', '/svgs/postgresql.svg'],
   ['MySQL', '/svgs/MySQL.svg'],
   // ['Tanstack Query', '/svgs/react-query-seeklogo.svg'],
