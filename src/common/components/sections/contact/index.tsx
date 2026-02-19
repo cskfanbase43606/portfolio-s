@@ -34,12 +34,15 @@ export default function Contact() {
         <p className="mb-20 mt-6 text-gray-700 dark:text-white/80">
           Please contact me directly at{" "}
           <a className="underline" href="mailto:azimov.workspace@gmail.com">
-            azimov.workspace@gmail.com
+            rahul.rana43606@gmail.com
           </a>{" "}
-          or through this form.
+          or call me on{" "}.
+          <a className="underline" href="+917632941223">
+            +917632941223
+          </a>
         </p>
 
-        <form
+        {/* <form
           className="mt-10 flex flex-col dark:text-black"
           action={async (formData) => {
             const { error } = await sendEmail(formData);
@@ -70,7 +73,7 @@ export default function Contact() {
           <div className="flex justify-center">
             <SubmitBtn />
           </div>
-        </form>
+        </form> */}
       </div>
     </motion.section>
   );
