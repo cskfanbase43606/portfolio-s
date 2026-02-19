@@ -1,14 +1,15 @@
 import React from 'react';
 
 import campwithusImg from '@/../public/images/camp-with-us.png';
-import carcatalogImg from '@/../public/images/car-catalog.png';
-import filedriveImg from '@/../public/images/file-drive.png';
+// import carcatalogImg from '@/../public/images/car-catalog.png';
+import xbeatImg from '@/../public/images/xbeat.png';
 import projectmanagementImg from '@/../public/images/project-management.png';
-import reactfoodImg from '@/../public/images/react-food.png';
+// import reactfoodImg from '@/../public/images/react-food.png';
 import surgeImg from '@/../public/images/surge.png';
 import portfolioImg from '@/../public/images/portfolio.png';
-import auditMasterImg from '@/../public/images/audit-master.png';
-import accountingImg from '@/../public/images/accounting.jpg';
+import pizzatimeImg from '@/../public/images/pizzatime.png';
+import ranacartImg from '@/../public/images/ranacart.png';
+import campusexpressImg from '@/../public/images/campusexpress.png';
 import { BookIcon, BriefcaseBusinessIcon } from 'lucide-react';
 
 export const links = [
@@ -40,77 +41,64 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: 'Trustsoft s.r.o.',
-    location: 'Prague, Czechia',
+    title: 'Frontend Developer',
+    location: 'Campus Express, Bengaluru',
     description:
-      'Front-end Developer. Providing services in the field of information technology services, including administration servers, cloud services, information systems and software development.',
+      'Front-end Developer. Completed Frontend Development Internship From Besant Technologies.',
     icon: React.createElement(BriefcaseBusinessIcon),
-    date: 'Oct 2024 - Present',
-  },
-  {
-    title: 'Granton s.r.o.',
-    location: 'Prague, Czechia',
-    description:
-      'Front-end Developer. Delivering flawless UI/UX, Frontend Workflow, Architecture & App Development.',
-    icon: React.createElement(BriefcaseBusinessIcon),
-    date: 'Oct 2024 - Present',
-  },
-  {
-    title: 'WhirrCrew s.r.o.',
-    location: 'Prague, Czechia',
-    description:
-      'Front-end Developer. Responsible for implemntation of accessible and interactive interface. Working on various projects with AI integration.',
-    icon: React.createElement(BriefcaseBusinessIcon),
-    date: 'Jun 2024 - Present',
-  },
-  {
-    title: 'NAU',
-    location: 'Kyiv, Ukraine',
-    description: `Bachelor's degree in Cybersecurity. The faculty of Cyber Security and Software Engineering.`,
-    icon: React.createElement(BookIcon),
-    date: 'Sep 2022 - Jun 2024',
+    date: 'August 2023 - Present',
   },
 ] as const;
 
 export const images = {
-  campwithusImg,
+  pizzatimeImg,
   carcatalogImg,
-  filedriveImg,
-  projectmanagementImg,
+  xbeatImg,
+  ranacartImg,
   reactfoodImg,
 };
 
 export const projectsData = [
   {
-    title: 'Audit Master',
-    description: `Audit Master is a platform that streamlines the process of obtaining legal expertise and resources. It automates tasks like GAP Analysis, GAP Reporting, Due Diligence & more.`,
-    tags: ['React', 'TypeScript', 'Next.js', 'Tailwind', 'SCRUM Methodology'],
-    imageUrl: auditMasterImg,
-    link: 'https://auditmaster.ai/',
+    title: 'Pizza Time',
+    description: `Designed & developed an e-commerce food delivery app platform for a pizza restaurant, utilizing technologies like React icons, React Router DOM, React Alice Carousel, Leaflet Maps, React Paginate, UUID, React Lazy Load, Framer Motion & Turso.`,
+    tags: ['Reactjs', 'Leaflet Maps', 'React Alice Carousel', 'Framer Motion', 'Turso'],
+    imageUrl: pizzatimeImg,
+    link: 'https://pizza-time-with-react-rana.vercel.app/',
   },
   {
-    title: 'Demo Automation of accounting documents processing',
+    title: 'Rana Cart',
     description:
-      'Upload any receipt or invoice (even a crumpled one from your pocket) and watch our AI accurately extract its data.',
-    tags: ['TypeScript', 'React', 'Docker', 'Next.js', 'GraphQL', 'Tailwind'],
-    imageUrl: accountingImg,
-    link: 'https://demo.grantonai.cz/',
+      'Designed & developed an interactive shopping E-commerce app platform having wide range of products & services using Typescript, React, React-Redux, Redux-Toolkit, Redux-Thunk, Axios, React Router, Framer Motion & Swiperjs.',
+    tags: ['TypeScript', 'React', 'Axios', 'Framer Motion'],
+    imageUrl: ranacartImg,
+    link: 'https://rana-ecom-react.vercel.app/',
   },
   {
-    title: 'FileDrive',
+    title: 'Xbeat App',
     description:
-      'A platform for decentralized file storage with robust user management.',
+      `Developed an audio E-store website using Reactjs & state management done using Context API.It has various features such as custom hooks, local storage, fully responsive, dark theme, multi-pages & much more .`,
+    tags: [
+      'Reactjs',
+      'ReactRouter',
+      'React Swiper',
+      'SASS',
+    ],
+    imageUrl: xbeatImg,
+    link: 'https://xbeat-rana.vercel.app/',
+  },
+  {
+    title: 'Campusexpress',
+    description: `Developed a full-time functional website for my current company "Campusexpress", where users can unlock seamless logistics solutions, book parcels securely for efficient transportation and delivery.`,
     tags: [
       'React',
-      'TypeScript',
-      'Next.js',
-      'Convex',
-      'Clerk',
-      'Shadcn',
-      'Tailwind',
+      'JavaScript',
+      'Framer Motion',
+      'Cloudinary',
+      'React Email',
     ],
-    imageUrl: filedriveImg,
-    link: 'https://github.com/bbyc4kes/file-drive',
+    imageUrl: campusexpressImg,
+    link: 'https://campus-express-rho.vercel.app/',
   },
   {
     title: 'Portfolio',
@@ -125,26 +113,9 @@ export const projectsData = [
       'Tailwind',
     ],
     imageUrl: portfolioImg,
-    link: 'https://github.com/bbyc4kes/portfolio',
+    link: 'https://portfolio-ts-rana.vercel.app/',
   },
-
-  {
-    title: 'Surge',
-    description:
-      'Service that allows users to build and manage their own websites with integrated payment processing.',
-    tags: [
-      'React',
-      'TypeScript',
-      'Next.js',
-      'MySQL',
-      'Clerk',
-      'Stripe Connect',
-      'Shadcn',
-      'Tailwind',
-    ],
-    imageUrl: surgeImg,
-    link: 'https://github.com/bbyc4kes/surge',
-  },
+  
 ] as const;
 
 export const skillsData = [
@@ -152,23 +123,23 @@ export const skillsData = [
   ['TypeScript', '/svgs/typescript-icon.svg'],
   ['React', '/svgs/react.svg'],
   ['Next.js', '/svgs/nextjs.svg'],
-  ['Node.js', '/svgs/node-js.svg'],
-  ['Express', '/svgs/express-original.svg'],
+  // ['Node.js', '/svgs/node-js.svg'],
+  // ['Express', '/svgs/express-original.svg'],
   ['Tailwind', '/svgs/tailwind-css.svg'],
   ['Framer', '/svgs/framer.svg'],
   ['Shadcn', '/svgs/shadcnui.svg'],
-  ['Headless', '/svgs/brand-headlessui.svg'],
+  // ['Headless', '/svgs/brand-headlessui.svg'],
   ['Redux', '/svgs/redux-original.svg'],
-  ['Prisma', '/svgs/file-type-light-prisma.svg'],
-  ['MongoDB', '/svgs/mongodb-original.svg'],
-  ['PostgreSQL', '/svgs/postgresql.svg'],
+  // ['Prisma', '/svgs/file-type-light-prisma.svg'],
+  // ['MongoDB', '/svgs/mongodb-original.svg'],
+  // ['PostgreSQL', '/svgs/postgresql.svg'],
   ['MySQL', '/svgs/MySQL.svg'],
-  ['Tanstack Query', '/svgs/react-query-seeklogo.svg'],
-  ['Tanstack Table', '/svgs/db-table-svgrepo-com.svg'],
-  ['Cloudinary', '/svgs/cloudinary.svg'],
-  ['Golang', '/svgs/golang.svg'],
-  ['Docker', '/svgs/Docker.svg'],
-  ['Clerk', '/svgs/clerk.svg'],
+  // ['Tanstack Query', '/svgs/react-query-seeklogo.svg'],
+  // ['Tanstack Table', '/svgs/db-table-svgrepo-com.svg'],
+  // ['Cloudinary', '/svgs/cloudinary.svg'],
+  // ['Golang', '/svgs/golang.svg'],
+  // ['Docker', '/svgs/Docker.svg'],
+  // ['Clerk', '/svgs/clerk.svg'],
   ['Axios', '/svgs/axios.svg'],
   ['HTML', '/svgs/file-type-html.svg'],
   ['CSS', '/svgs/file-type-css.svg'],
