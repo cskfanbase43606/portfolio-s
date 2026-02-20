@@ -1,14 +1,14 @@
 import React from 'react';
 
 import campwithusImg from '@/../public/images/camp-with-us.png';
-import carcatalogImg from '@/../public/images/car-catalog.png';
+import xbeatImg from '@/../public/images/xbeat.png';
 import filedriveImg from '@/../public/images/file-drive.png';
 import projectmanagementImg from '@/../public/images/project-management.png';
-import reactfoodImg from '@/../public/images/react-food.png';
-import surgeImg from '@/../public/images/surge.png';
+import pizzatimeImg from '@/../public/images/pizzatime.png';
+import ranacartImg from '@/../public/images/ranacart.png';
+import campusexpressImg from '@/../public/images/campusexpress.png';
 import portfolioImg from '@/../public/images/portfolio.png';
-import auditMasterImg from '@/../public/images/audit-master.png';
-import accountingImg from '@/../public/images/accounting.jpg';
+
 import { BookIcon, BriefcaseBusinessIcon } from 'lucide-react';
 
 export const links = [
@@ -82,19 +82,19 @@ export const images = {
 
 export const projectsData = [
   {
-    title: 'Audit Master',
-    description: `Audit Master is a platform that streamlines the process of obtaining legal expertise and resources. It automates tasks like GAP Analysis, GAP Reporting, Due Diligence & more.`,
-    tags: ['React', 'TypeScript', 'Next.js', 'Tailwind', 'SCRUM Methodology'],
-    imageUrl: auditMasterImg,
-    link: 'https://auditmaster.ai/',
+    title: 'Pizza Time',
+    description: `Designed & developed an e-commerce food delivery app platform for a pizza restaurant, utilizing technologies like React icons, React Router DOM, React Alice Carousel, Leaflet Maps, React Paginate, UUID, React Lazy Load, Framer Motion & Turso.`,
+    tags: ['Reactjs', 'Leaflet Maps', 'React Alice Carousel', 'Framer Motion', 'Turso'],
+    imageUrl: pizzatimeImg,
+    link: 'https://pizza-time-with-react-rana.vercel.app/',
   },
   {
-    title: 'Demo Automation of accounting documents processing',
+    title: 'Rana Cart',
     description:
-      'Upload any receipt or invoice (even a crumpled one from your pocket) and watch our AI accurately extract its data.',
-    tags: ['TypeScript', 'React', 'Docker', 'Next.js', 'GraphQL', 'Tailwind'],
-    imageUrl: accountingImg,
-    link: 'https://demo.grantonai.cz/',
+      'Designed & developed an interactive shopping E-commerce app platform having wide range of products & services using Typescript, React, React-Redux, Redux-Toolkit, Redux-Thunk, Axios, React Router, Framer Motion & Swiperjs.',
+    tags: ['TypeScript', 'React', 'Axios', 'Framer Motion'],
+    imageUrl: ranacartImg,
+    link: 'https://rana-ecom-react.vercel.app/',
   },
   {
     title: 'FileDrive',
